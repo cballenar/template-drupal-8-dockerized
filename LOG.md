@@ -8,3 +8,16 @@
     + MariaDB 10.3
 - Upon running docker-compose up machine should be pretty much ready to go.
 - Just don't forget to create `./db-data/` and `./docroot/`
+
+Folder Structure:
+```
++ db-data/
++ docroot/
+    + vendor/
+    + web/
+    - composer.json
+- docker-compose.yaml
+- docker-mysql.settings
+- Dockerfile
+- drupal.apache.conf
+```
